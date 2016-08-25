@@ -6,6 +6,7 @@ A chat prototype composed of four projects:
 * [The web client](../../../chitchattychat-web-client)
 * [The realtime server](../../../chitchattychat-realtime)
 * [The api](../../../chitchattychat-api)
+* TODO: The chatbot - add to github
 
 # Live setup on Heroku:
 
@@ -36,13 +37,16 @@ Clone all the above repos into a root chat folder and navigate to that chat fold
   heroku features:enable http-session-affinity
   git push heroku master
   ```
+  
+3. Chat bot
+  TODO: Add instructions some time
 
-3. Web client
+4. Web client
   edit: add how to buid with webpack and add that only copy index.html, css and js files
   Change apiurl and socketurl in index.html to those corresponding to heroku apps
   deployed to a static hosting provider such as s3: http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
 
-4. React native
+5. React native
   TODO: This is out of date
   Change urls (currently in actions.js and /chat/index.js but need to be put in a better spot)
 
